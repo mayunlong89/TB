@@ -64,14 +64,14 @@ write.csv(test_res, file="anova_test_results.csv")
 boxplot(RPS5 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(ZNF197 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(FCHO1 ~ Pheno, data = Data,col=c("green","green","red","red"))
-boxplot(CLN8_1 ~ Pheno, data = Data,col=c("green","green","red","red"))
+boxplot(CLN8 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(SPATA20 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(PDK1 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(ZNF354A ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(TDRKH ~ Pheno, data = Data,col=c("green","green","red","red"))
-boxplot(CDK10_2 ~ Pheno, data = Data,col=c("green","green","red","red"))
+boxplot(CDK10 ~ Pheno, data = Data,col=c("green","green","red","red"))
 boxplot(LIG3 ~ Pheno, data = Data,col=c("green","green","red","red"))
-boxplot(CDC16_1 ~ Pheno, data = Data,col=c("green","green","red","red"))
+boxplot(CDC16 ~ Pheno, data = Data,col=c("green","green","red","red"))
 
 
 #End
